@@ -1,0 +1,93 @@
+<html>
+
+        <head>
+
+                <title>Login</title>
+
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+
+
+                                <link rel="stylesheet" href="Login_Style.css">
+
+
+                                        <script>
+
+                                                function form_validation()
+                                                {
+                                                        if(document.login_form.username.value == '')
+                                                        {
+                                                                alert("'Username' FIELD IS EMPTY! FILL IT!");
+
+                                                                document.signup_form.username.focus();
+
+                                                                return (false);
+                                                        }
+
+
+
+                                                        if(document.login_form.password.value == '')
+                                                        {
+                                                                alert("'Password' FIELD IS EMPTY! FILL IT!");
+
+                                                                document.signup_form.password.focus();
+
+                                                                return (false);
+                                                        }
+
+
+
+                                                        return (true);
+                                                }
+
+                                        </script>
+                                        
+
+        </head>
+
+
+
+        <body>
+
+              
+                <h1> my_Second_Web_App </h1>
+
+
+
+                <form action="Login" method="POST" name="login_form" onsubmit="return form_validation()">
+
+
+
+                        <label for="username"> Username </label>
+
+                                <input type="text" name="username" id="username">
+
+
+
+                        <label for="password"> Password </label>
+
+                                <input type="password" name="password" id="password">
+
+
+
+                        <div id="button_container">
+
+                                <input type="submit" value="Login" id="submit">
+                                
+                                <input type="reset" value="Reset" id="reset">
+
+                        </div>
+
+
+
+                </form> 
+
+        </body>
+
+</html>

@@ -1,0 +1,475 @@
+*
+{
+    margin: 0;
+
+    padding: 0;
+
+
+    background-color: #404041;
+
+    color: crimson;
+}
+
+
+
+.bebas-neue-regular 
+{
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+
+
+.dancing-script-uniquifier 
+{
+    font-family: "Dancing Script", cursive;
+
+    font-optical-sizing: auto;
+
+    font-weight: weight;
+
+    font-style: normal;
+}
+
+
+
+
+
+
+h1
+{
+    font-family: Bebas Neue;
+
+    margin-left: 20px;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+
+
+    font-size: 80px;
+    
+    color: #E6C17A;
+}
+
+
+
+
+
+
+form
+{
+    display: flex;
+
+    flex-direction: column;
+
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    margin-top: 35px;
+}
+
+
+
+    label
+    {
+        font-family: Dancing Script;
+
+        font-weight: 550;
+
+        font-size: 23px;
+
+        color: rgb(204, 182, 141);
+
+
+        margin-bottom: 5px;
+    }
+
+
+
+    #username
+    {
+        margin-bottom: 30px;
+
+        width: 300px;
+
+        height: 30px;
+
+        border-radius: 5px;
+
+        
+        color: #404041;
+
+        border: 1px solid black;
+
+        font-weight: 900;
+
+
+
+        background-color: lightgray;
+
+        text-align: center;
+
+        padding: 10px;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #username:hover
+    {
+        /* border: 3px solid crimson; */
+
+        border: 3px solid #d39f3f;
+    }
+
+
+
+    #username:focus
+    {
+        background-color: #E6C17A;
+        
+        color: #404041;
+        
+        border: 3px solid #E6C17A;
+    }
+
+
+
+
+
+
+    #password_container
+    {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+    }
+
+        #password
+        {
+            margin-bottom: 30px;
+
+            /* margin-left: 15px; */
+
+            width: 250px;
+
+            height: 30px;
+
+            border-radius: 5px;
+
+            
+            color: #404041;
+
+            border: 1px solid black;
+
+            font-weight: 900;
+
+
+
+            background-color: lightgray;
+
+            text-align: center;
+
+            padding: 5px;
+
+
+
+            transition: all 0.10s ease-in-out 0s;
+        }
+
+
+
+        #password:hover
+        {
+            border: 3px solid #d39f3f;
+        }
+
+
+
+        #password:focus
+        {
+            background-color: #E6C17A;
+            
+            color: #404041;
+            
+            border: 3px solid #E6C17A;
+        }
+
+
+
+        #confirm_password
+        {
+            margin-bottom: 30px;
+
+            width: 250px;
+
+            height: 30px;
+
+            border-radius: 5px;
+
+            
+            color: #404041;
+
+            border: 1px solid black;
+
+            font-weight: 900;
+
+
+
+            background-color: lightgray;
+
+            text-align: center;
+
+            padding: 5px;
+
+
+
+            transition: all 0.10s ease-in-out 0s;
+        }
+
+
+
+        #confirm_password:hover
+        {
+            border: 3px solid #d39f3f;
+        }
+
+
+
+        #confirm_password:focus
+        {
+            background-color: #E6C17A;
+            
+            color: #404041;
+            
+            border: 3px solid #E6C17A;
+        }
+
+
+
+
+
+
+    #address
+    {
+        margin-bottom: 30px;
+
+        width: 600px;
+
+        height: 30px;
+
+        border-radius: 5px;
+
+        
+        color: #404041;
+
+        border: 1px solid black;
+
+        font-weight: 900;
+
+
+
+        background-color: lightgray;
+
+        text-align: center;
+
+        padding: 5px;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #address:hover
+    {
+        border: 3px solid #d39f3f;
+    }
+
+
+    
+    #address:focus
+    {
+        background-color: #E6C17A;
+        
+        color: #404041;
+        
+        border: 3px solid #E6C17A;
+    }
+
+
+
+
+
+
+    #phone
+    {
+        margin-bottom: 40px;
+
+        width: 200px;
+
+        height: 30px;
+
+        border-radius: 5px;
+
+        
+        color: #404041;
+
+        border: 1px solid black;
+
+        font-weight: 900;
+
+
+
+        background-color: lightgray;
+
+        text-align: center;
+
+        padding: 5px;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #phone:hover
+    {
+        border: 3px solid #d39f3f;
+    }
+
+
+
+    #phone:focus
+    {
+        background-color: #E6C17A;
+
+        color: #404041;
+
+        border: 3px solid #E6C17A;
+    }
+
+
+
+
+
+
+#button_container
+{
+    display: flex;
+}
+
+
+
+    #submit
+    {
+        text-align: center;
+
+        height: 40px;
+
+        width: 70px;
+
+        margin-right: 10px;
+
+        font-weight: 900;
+
+        border-radius: 10px;
+
+        background-color: rgb(173, 161, 161);
+
+        color: black;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #submit:hover
+    {
+        background-color: #E6C17A;
+
+        color: #404041;
+
+
+        width: 120px;
+    }
+
+
+
+    #submit:focus
+    {
+        background-color: #E6C17A;
+
+        color: #404041;
+
+
+        width: 120px;
+    }
+
+
+
+    #reset
+    {
+        text-align: center;
+
+        height: 40px;
+
+        width: 70px;
+
+        font-weight: 900;
+
+        border-radius: 10px;
+
+        background-color: rgb(173, 161, 161);
+
+        color: black;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #reset:hover
+    {
+        background-color: #E6C17A;
+
+        color: #404041;
+
+
+        width: 120px;
+    }
+
+
+
+    #reset:focus
+    {
+        background-color: #E6C17A;
+
+        color: #404041;
+
+
+        width: 120px;
+    }
